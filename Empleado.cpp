@@ -32,6 +32,21 @@ class Empleado : Persona{
 	double getSueldo(){
 		return sueldo;
 	}
+	string getNombres() {
+		return nombres;
+	} 
+
+	string getApellidos(){
+		return apellidos;
+	} 
+
+	int getTelefono(){
+		return telefono;
+	}	
+
+	string getDireccion() {
+		return direccion;
+	}
 	
 	// set(modificar) 
 	void setCod_empleado(string codigo){
@@ -43,4 +58,16 @@ class Empleado : Persona{
 	void setSueldo(double sue){
 		sueldo = sue;
 	}
+	void setNombres(string nom){
+		nombres = nom;
+	} 
+	void setApellidos(string ape){
+		apellidos = ape;
+	}	 
+	void setDireccion(string dir){
+		direccion = dir;
+	} 
+	void setTelefono (int tel){
+		telefono=tel;
+	} 
 };
